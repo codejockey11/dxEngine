@@ -1,0 +1,98 @@
+#ifndef _CPACKET
+#define _CPACKET
+
+#include "standard.h"
+
+class CPacket
+{
+public:
+
+	enum
+	{
+		MAXPACKETLEN = 256,
+
+		MAXPACKET = 0xFFFF
+	};
+
+	INT fromClient;
+	
+	INT toClient;
+	
+	BYTE audience;
+	
+	BYTE type;
+
+	INT length;
+
+	BYTE data[CPacket::MAXPACKETLEN];
+
+	CPacket();
+
+	CPacket(UINT fc, UINT tc, BYTE a, BYTE t);
+
+	CPacket(UINT fc, UINT tc, BYTE a, BYTE t, BYTE d, UINT l);
+
+	CPacket(UINT fc, UINT tc, BYTE a, BYTE t, BYTE* d, UINT l);
+
+	CPacket(UINT fc, UINT tc, BYTE a, BYTE t, const CHAR* d, UINT l);
+
+	~CPacket();
+
+	VOID Clear();
+
+	enum
+	{
+		PT_EMPTY = 0,
+
+		PT_ORTHOPLAYERENTER,
+		PT_ORTHOPLAYEREXIT,
+
+		PT_PLAYERENTER,
+		PT_PLAYEREXIT,
+
+		PT_CONNECT,
+		PT_DISCONNECT,
+
+		PT_STARTSERVER,
+		PT_STOPSERVER,
+		PT_ACCEPTED,
+
+		PT_PING,
+		PT_PONG,
+
+		PT_TOGGLECONSOLE,
+		PT_CONSOLEPAGING,
+		PT_CONSOLEINPUT,
+
+		PT_LOADBRUSHMAP,
+		PT_LOADTERRAIN,
+		PT_LOADORTHOLEVEL,
+
+		PT_CHAT,
+
+		PT_SINGLE,
+		PT_TEAM,
+		PT_GLOBAL,
+		PT_LOCAL,
+
+		PT_MOVE_DOWN,
+		PT_MOVE_UP,
+		PT_MOVE_LEFT,
+		PT_MOVE_RIGHT,
+
+		PT_FORWARD,
+		PT_BACKWARD,
+		PT_STRAFELEFT,
+		PT_STRAFERIGHT,
+
+		PT_ATTACK,
+
+		PT_WINDOWMODE,
+		PT_FRAME,
+
+		PT_EXIT,
+
+		MAXPACKETTYPE = 0xFF
+	};
+};
+#endif

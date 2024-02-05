@@ -1,0 +1,5 @@
+screenWidth 1360.0
+screenHeight 768.0
+maxString 100.0
+windowed 1.0
+mouseSensitivity 0.125

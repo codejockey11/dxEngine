@@ -1,0 +1,39 @@
+21:13:50 - Intel(R) HD Graphics 630
+21:13:50 - CVideoDevice::InitAdapterModes::D3DFORMAT::D3DFMT_X8R8G8B8
+21:13:50 - Width:0320 Height:0200
+21:13:50 - Width:0320 Height:0240
+21:13:50 - Width:0400 Height:0300
+21:13:50 - Width:0512 Height:0384
+21:13:50 - Width:0640 Height:0400
+21:13:50 - Width:0640 Height:0480
+21:13:50 - Width:0720 Height:0480
+21:13:50 - Width:0720 Height:0576
+21:13:50 - Width:0800 Height:0600
+21:13:50 - Width:1024 Height:0768
+21:13:50 - Width:1152 Height:0864
+21:13:50 - Width:1280 Height:0600
+21:13:50 - Width:1280 Height:0720
+21:13:50 - Width:1280 Height:0768
+21:13:50 - Width:1280 Height:0800
+21:13:50 - Width:1280 Height:0960
+21:13:50 - Width:1280 Height:1024
+21:13:50 - Width:1360 Height:0768
+21:13:50 - Width:1366 Height:0768
+21:13:50 - Width:1400 Height:1050
+21:13:50 - Width:1440 Height:0900
+21:13:50 - Width:1600 Height:0900
+21:13:50 - Width:1680 Height:1050
+21:13:50 - Width:1920 Height:1080
+21:13:50 - Speakers (Realtek High Definition Audio)
+21:13:50 - Enumerated Input Devices
+21:13:50 - Mouse
+21:13:50 - Keyboard
+21:13:50 - USB Laser Wheel Mouse
+21:13:50 - HP USB Multimedia Keyboard
+21:13:59 - CEventManager::PlayerEnter:Entered:PlayerName
+21:14:05 - CEventManager::LoadTerrain
+21:14:05 - CEventManager::PlayerEnter:Entered:PlayerName
+21:14:12 - CEventManager::LoadOrthoLevel
+21:14:12 - CEventManager::OrthoPlayerEnter:Entered:OrthoPlayerName
+21:15:01 - 0 hello
+21:16:13 - CEventManager::Exit:Exiting
